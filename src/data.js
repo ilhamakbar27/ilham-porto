@@ -38,6 +38,7 @@ import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
 // testimonial images
+import dita  from  './assets/img/testimonials/dita.jpeg'
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
@@ -228,6 +229,13 @@ export const services = [
 
 // testimonials
 export const testimonials = [
+  {
+    authorImg: dita ,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Annisa Ditasila',
+    authorPosition: 'Data Scientist, Google',
+  },
   {
     authorImg: TestiImage1,
     authorText:
