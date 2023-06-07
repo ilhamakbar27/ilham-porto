@@ -7,6 +7,8 @@ import About from "./component/about";
 import Portfolio from "./component/portfolio";
 import Service from "./component/service";
 import Testimonial from"./component/Testimonial";
+import Footer from "./component/footer";
+
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
       <Portfolio />
       <Service />
       <Testimonial/>
+      <Footer/>
     </div>
   );
 };
